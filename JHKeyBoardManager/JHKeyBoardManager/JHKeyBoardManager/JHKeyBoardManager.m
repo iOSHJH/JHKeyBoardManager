@@ -54,7 +54,7 @@
     [self transformView:notification];
 }
 
-/// 移动UIView
+/// 偏移View
 -(void)transformView:(NSNotification *)notification {
     //获取键盘弹出后的Rect
     NSValue *keyBoardEndBounds=[[notification userInfo]objectForKey:UIKeyboardFrameEndUserInfoKey];
